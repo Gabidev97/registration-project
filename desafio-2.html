@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2? família=Nunito:wght@200;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./Style.css">
+
+</head>
+
+<body>
+
+    <form action="" method="POST"></form>
+
+    <div id="total-layout">
+        
+        <h2>Cadastro</h2>
+
+        <div>
+            <label for="name">Name</label>
+            <input class="inbox" type="text" name="nome" id="name">
+        </div>
+
+        <div>
+            <label for="email">Email</label>
+            <input class="inbox" type="email" name="email" id="email" autocomplete="off">
+        </div>
+
+        <div>
+            <label for="age">idade</label>
+            <input class="inbox" type="number" name="age" id="idade" maxlength="80" minlength="12">
+        </div>
+
+        <div>
+            <label for="Date of birth">Data de nascimento</label>
+            <input class="inbox-date" type="date" name="idade" id="Date of birth" autocomplete="off">
+        </div>
+
+
+        <label class="title-same-line" for="account"> onde voce possui conta?</label>
+
+        <div>
+            <input class="same-line" type="checkbox" name="facebook"> facebook
+            <input class="same-line" type="checkbox" name="instagram"> instagram
+            <input class="same-line" type="checkbox" name="youtube"> youtube
+        </div>
+
+        <label class="tittle-same-line" for="sexo"> Sex</label>
+        <div>
+            <input class="same-line" type="radio" name="Man" value="Man"> masculino
+            <input class="same-line" type="radio" name="Woman" value="woman"> feminino
+        </div>
+
+        <div class="eyes-color">
+            <label for="eye-color">cor dos olhos
+                <input class="input-inline" type="color" name="cor-dos-olhos">
+            </label>
+        </div>
+
+        <div>
+            <label for="summary"> Biografia </label>
+            <textarea name="biography" rows="2" cols="20" name="biography" id="biography"></textarea>
+        </div>
+
+        <label for="profile picture">foto do perfil</label>
+        <input type="file" name="profile picture" accept="image/*">
+
+        <label for="tel"> Telefone</label>
+        <input class="inbox-tel" type="number" name="tel" placeholder="Ex:(00)00000-0000" autocomplete="off">
+
+        <label for="profile link"> Link do perfil</label>
+        <input class="inbox" type="url" name="profile link">
+
+        <label for="password">password </label>
+        <input class="inbox" type="password" name="password">
+
+        <div>
+            <button id="clear" type="reset"> limpar dados</button>
+            <button id="submit" type="submit"> enviar </button>
+        </div>
+
+    </div>
+
+
+
+
+</body>
+
+</html>
