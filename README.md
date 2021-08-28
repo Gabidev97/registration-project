@@ -1,7 +1,11 @@
+<<<<<<< HEAD
 # registration-project
 
 
 
+=======
+# registration proje
+>>>>>>> 4845ec1466a4a7aeef1c6f40324bd14b53d2b8a4
 ​
 
 > first css project, carried out on the CodeClub course, finished html, css.
@@ -23,6 +27,7 @@ O projeto ainda está em desenvolvimento e como atualizações serão voltadas n
 - [ ] JAVASCRIPT
 
 ​
+<<<<<<< HEAD
 
 ​
 
@@ -38,3 +43,5 @@ O projeto ainda está em desenvolvimento e como atualizações serão voltadas n
 
 ​
 
+=======
+>>>>>>> 4845ec1466a4a7aeef1c6f40324bd14b53d2b8a4
